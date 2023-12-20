@@ -21,6 +21,8 @@ const{author_picture, blog_picture, author_name, blog_title, date, read_time } =
              </div>
              </div>
              <h2 className='text-2xl mt-3'>{blog_title}</h2> 
+             <h5 className='mt-6'>#beginners  #programing</h5>
+             <h4 className='text-lg mt-8 underline'>Mark as read</h4>
         </div>
     );
 };

@@ -25,9 +25,14 @@ const Tecno = () => {
          </div>
          <div className='tost-container'>
             <h4>Spend Time On Read: </h4>
+         <div>
+            <h4>BookMarks Bloks: 1</h4>
+            <div>
+                <h2>Pay with</h2>
+            </div>
+         </div>
          </div>
         </div>
-        
     );
 };
 
