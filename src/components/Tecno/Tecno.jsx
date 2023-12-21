@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Tecno.css';
 import Service from '../Service/Service';
+import BookMark from './BookMark/BookMark';
 const Tecno = () => {
     const [services, setServices] = useState([]);
 
@@ -24,12 +25,9 @@ const Tecno = () => {
             }
          </div>
          <div className='tost-container'>
-            <h4>Spend Time On Read: </h4>
+            
          <div>
-            <h4>BookMarks Bloks: 1</h4>
-            <div>
-                <h2>Pay with</h2>
-            </div>
+         <BookMark></BookMark>
          </div>
          </div>
         </div>
