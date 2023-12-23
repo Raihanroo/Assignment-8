@@ -1,5 +1,10 @@
-.tecno-container{
+/* .tecno-container{
     display: grid;
     grid-template-columns: 4fr 2fr;
-    /* color: blue; */
-}
+} */
+/* @media screen( min-width: 725px) {
+    .tecno-container{
+        grid-template-columns: 4fr;
+        background: yellow;
+    }
+} */
